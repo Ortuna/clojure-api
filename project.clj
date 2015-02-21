@@ -13,7 +13,7 @@
                  [korma "0.4.0"]
                  [ring/ring-defaults "0.1.2"]]
   :plugins [[lein-ring "0.8.13"]
-            [ragtime/ragtime.lein "0.3.7"]]
+            [ragtime/ragtime.lein "0.3.8"]]
   :ring {:handler west.handler/app}
   :ragtime {:migrations ragtime.sql.files/migrations
             :database "jdbc:postgresql://localhost:5432/west_dev"}
